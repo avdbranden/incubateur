@@ -27,6 +27,9 @@ group :development, :test do
   # Ading Rspec gem
   gem 'rspec-rails', '~> 3.5'
   gem 'rails-controller-testing'
+  # Adding gems for integration tests
+  gem 'factory_girl'
+  gem 'capybara'
 end
 
 
