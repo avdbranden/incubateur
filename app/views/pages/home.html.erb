@@ -1,2 +1,170 @@
-<h1>HomePage</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<!-- Title -->
+
+<div class="title text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="title-content">
+					<h1>L'ELECTROCHOC NUMERIQUE</h1>
+					<h2>Assurons notre avenir</h2>
+					<h2>Une rencontre organisée par Avocats.be</h2>
+					<h4>avec le soutien de l'UIA, du Barreau de Bruxelles et de Trans-Mutation (université d'été)​</h4>
+					<h2>Le monde juridique est en mutation</h2>
+					<div class="whitepaper">
+						<%= link_to "Lisez l'intervention", root_path, class: "btn btn-danger btn-lg"%>
+						<h4>de <strong>Stanislas van Wassenhove</strong>, avocat</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Image -->
+
+<div class="image text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="image-content">
+					<%= image_tag "electrochoc.jpg" %>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Summary -->
+
+<div class="summary text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="summary-content">
+					<h4><strong>Quoi ? </strong>Une journée d'information et de réflexion sur la révolution numérique et la transformation de l'avocat</h4>
+					<h4><strong>Quand ? </strong>Le 15 décembre 2016 de 8h30 à 17h30</h4>
+					<h4><strong>Où ? </strong>Dans les locaux de la FEB- rue de Ravenstein, 4 à 1000 Bruxelles</h4>
+					<h4><strong>Qui ? </strong>Tous les avocats membres de l'OBFG mais aussi les autres acteurs de la Justice</h4>
+					<h4><strong>Tarif ? </strong>60 EUR pour les avocats, 30 EUR pour les avocats stagiaires et les magistrats, 80 EUR pour les autres</h4>
+					<h4><u><strong>NB : </strong>6 points de formation</u></h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Teasing -->
+
+<div class="teasing text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="teasing-content">
+					<p><em>"Le monde juridique est en papier et la révolution numérique est en cours. Allons-nous rater le train ou nous engageons nous vers la vision de l'avocat du futur qui nous apportera croissance et épanouissement? Les outils numériques sont à notre disposition pour faire ce parcours et mettre de manière plus efficiente et collaborative notre expertise et notre écoute aux services de nos clients et de la Justice. Cette évolution nous concerne tous. Venez découvrir durant cette journée, les outils mais aussi la manière de faire évoluer votre pratique. Nous aiderons les autres acteurs de Justice à prendre le train en marche."</em></p>
+					<h4><strong>Jean-Pierre Buyle</strong>, président d'Avocats.be</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Interventions -->
+
+<div class="interventions text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="interventions-content">
+					<h2>Intervenants</h2>
+					<div class="row">
+						<div class="col-md-4 col-xs-12">
+							<div class="intervenant">
+								<%= image_tag "jpbuyle.jpeg", class: "img-circle img-responsive avatar" %>
+								<h4>Jean-Pierre Buyle</h4>
+								<p>Président avocats.be</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12">
+							<div class="intervenant">
+								<%= image_tag "kgeens.jpg", class: "img-circle img-responsive avatar" %>
+								<h4>Koen Geens</h4>
+								<p>Ministre de la Justice</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12">
+							<div class="intervenant">
+								<%= image_tag "psculier.jpg", class: "img-circle img-responsive avatar" %>
+								<h4>Pierre Sculier</h4>
+								<p>Bâtonnier de Bruxelles</p>
+							</div>
+						</div>
+					</div>
+					<%= link_to "Voir le programme complet", programme_path, class: "btn btn-primary btn-lg"%>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Inscriptions -->
+
+<div class="inscriptions text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="inscriptions-content">
+					<h2>Inscriptions</h2>
+					<p>Frais d'inscription TTC</p>
+					<P>Avocats : 60 EUR</p>
+					<p>Avocats stagiaires et magistrats : 30 EUR</p>
+					<p>Autres : 80 EUR</p>
+					<p>A verser sur le compte de l'OBFG</p> 
+					<p>IBAN : BE49 6300 7693 1971<p>
+					<p>Le paiement vaut inscription définitive.</p>
+					<%= link_to "Procédez à l'inscription", contact_path, class: "btn btn-success btn-lg"%>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Inscriptions -->
+
+<div class="sponsors text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="inscriptions-content">
+					<h2>Sponsors</h2>
+					<h4>Ces partenaires nous soutiennent</h4>
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="big-sponsor">
+								<%= link_to image_tag("larcier.png"), "http://www.larciergroup.com/", target: '_blank' %>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="small-sponsors">
+							<div class="col-md-3 col-xs-12">
+								<%= link_to image_tag("secib.png"), "https://www.secib.fr/", target: '_blank' %>
+							</div>
+							<div class="col-md-3 col-xs-12">
+								<%= link_to image_tag("eliott.png"), "http://blog.eliott-markus.com/", target: '_blank' %>
+							</div>
+							<div class="col-md-3 col-xs-12">
+								<%= link_to image_tag("mycercle.png"), "http://www.mycercle.net/", target: '_blank' %>
+							</div>
+							<div class="col-md-3 col-xs-12">
+								<%= link_to image_tag("ipex.jpg"), "https://www.ipexgroup.com/en/", target: '_blank' %>
+							</div>
+						</div>
+					</div>
+					<%= link_to "Devenez partenaire", sponsors_path, class: "btn btn-success btn-lg"%>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
