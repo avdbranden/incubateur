@@ -6,6 +6,5 @@ class PagesController < ApplicationController
   end
 
   def contact
-    @prospect = Prospect.new
   end
 end
