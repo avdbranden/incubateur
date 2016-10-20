@@ -5,6 +5,7 @@
 }
 
 div.speaker-card {
+	margin: 50px;
 	div.description {
 		padding-top: 15px;
 		div.matter {
@@ -13,4 +14,16 @@ div.speaker-card {
     		padding: 5px;
 		}
 	}
+}
+
+div.panel {
+	margin-top: 40px;
+	p {
+		margin: 5px 0px;
+	}
+}
+
+h2 {
+	border-top: solid 3px $light-gray;
+	padding-top: 20px;
 }
