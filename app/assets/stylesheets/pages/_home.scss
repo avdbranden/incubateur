@@ -1,16 +1,11 @@
-.title {
-	margin-top: 90px;
-	margin-bottom: 60px;
-	h1 {
-		font-size: 55px;
-	}
-}
-
 h2 {
 	font-size: 40px;
-	&.rencontre {
+	&#rencontre {
 		font-size: 35px;
 		margin-top: 80px;
+	}
+	&#avenir {
+		margin-bottom: 50px;
 	}
 }
 

@@ -6,8 +6,11 @@
 			<div class="col-xs-12">
 				<div class="title-content">
 					<h1>L'ELECTROCHOC NUMERIQUE</h1>
-					<h2>Assurons notre avenir</h2>
-					<h2 class="rencontre">Une rencontre organisée par Avocats.be</h2>
+					<h2 id="avenir">Assurons notre avenir</h2>
+
+					<%= render 'logos' %>
+
+					<h2 id="rencontre">Une rencontre organisée par Avocats.be</h2>
 					<h4>avec le soutien de l'UIA, du Barreau de Bruxelles et de Trans-Mutation (université d'été)​</h4>
 				</div>
 			</div>
@@ -149,30 +152,9 @@
 			<div class="col-xs-12">
 				<div class="sponsors-content">
 					<h2>Sponsors</h2>
-					<h4>Ces partenaires nous soutiennent</h4>
-					<div class="row">
-						<div class="col-xs-12">
-							<div class="big-sponsor">
-								<%= link_to image_tag("larcier.jpg"), "http://www.larciergroup.com/", target: '_blank' %>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="small-sponsors">
-							<div class="col-md-3 col-xs-12">
-								<%= link_to image_tag("secib.png"), "https://www.secib.fr/", target: '_blank' %>
-							</div>
-							<div class="col-md-3 col-xs-12">
-								<%= link_to image_tag("eliott.png"), "http://blog.eliott-markus.com/", target: '_blank' %>
-							</div>
-							<div class="col-md-3 col-xs-12">
-								<%= link_to image_tag("mycercle.png"), "http://www.mycercle.net/", target: '_blank' %>
-							</div>
-							<div class="col-md-3 col-xs-12">
-								<%= link_to image_tag("ipex.jpg"), "https://www.ipexgroup.com/en/", target: '_blank' %>
-							</div>
-						</div>
-					</div>
+					
+					<%= render 'partners' %>
+
 					<%= link_to "Devenez partenaire", sponsors_path, class: "btn btn-success btn-lg"%>
 				</div>
 			</div>
