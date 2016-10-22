@@ -30,6 +30,8 @@ group :development, :test do
   # Adding gems for integration/features tests
   gem 'factory_girl'
   gem 'capybara'
+  # To enable travis
+  gem 'rake'
 end
 
 
