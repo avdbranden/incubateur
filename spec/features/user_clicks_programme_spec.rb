@@ -3,7 +3,7 @@ require "rails_helper"
 RSpec.feature "Simple visit and inscription", :type => :feature do
   scenario "User goes on home page" do
     visit "/"
-    expect(page).to have_text("L'ELECTROCHOC NUMERIQUE")
+    expect(page).to have_text("L'Electrochoc Numérique")
   end
   scenario "User clicks on programme and redirected to programme page" do
     visit "/"
