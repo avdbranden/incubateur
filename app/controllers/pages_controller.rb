@@ -2,12 +2,12 @@ class PagesController < ApplicationController
   def home
   end
 
-  def programme
+  def prix
   end
 
   def contact
   end
 
-  def sponsor
+  def equipe
   end
 end
