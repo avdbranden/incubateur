@@ -1,38 +1,12 @@
-.badge-container {
-  position: relative;
-  font-size: 25px;
-  line-height: 30px;
-  width: 30px;
-  color: grey;
-}
-.badge {
-  position: absolute;
-  top: -5px;
-  right: -5px;
-  font-size: 10px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 18px;
-  width: 18px;
-  text-align: center;
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+.circle {
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-}
-.badge-red {
-  background: #EE5F5B;
-}
-.badge-green {
-  background: #32B796;
-}
-.badge-blue {
-  background: #469AE0;
-}
-.badge-black {
-  background: black;
-}
-.badge-bordered {
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border: white 1px solid;
+  font-size: 20px;
+  color: #fff;
+  line-height: 50px; /* hauteur de ligne (identique) */
+  white-space: nowrap; /* interdiction de passer à la ligne */
+  text-align: center;
+  background: #0365C0;
+  font-weight: bold
 }

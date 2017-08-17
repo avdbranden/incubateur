@@ -1,34 +1,26 @@
-h2 {
-	font-size: 40px;
-	&#rencontre {
-		font-size: 35px;
-		margin-top: 80px;
-	}
-	&#avenir {
-		margin-bottom: 50px;
-	}
-}
-
-div.mutation {
-	background-color: $light-gray;
-	padding-top: 90px;
-	padding-bottom: 90px;
-	div.mutation-content {
-		border: solid 2px gray;
-		border-radius: 2px;
-		background-color: $body-bg;
-		div.whitepaper {
-		    margin-top: 50px;
-		    a {
-		    	padding: 20px;
-		    	font-size: 24px;
-		    }
+.mission {
+	margin-top: 90px;
+	margin-bottom: 60px;
+	.mission-content {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		.mission-description {
+			flex-shrink: 20;
+    	margin-left: 50px;
+    	p {
+    		width: 800px;
+    	}
 		}
 	}
 }
 
-div.image {
-	margin: 40px;
+.constat-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
 
 div.summary {

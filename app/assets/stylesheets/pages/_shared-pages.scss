@@ -1,26 +1,8 @@
-.title {
-	margin-top: 90px;
-	margin-bottom: 60px;
-	h1 {
-		font-size: 45px;
-	}
-}
-
 .lined {
 	border-top: solid 3px $light-gray;
-	padding-top: 20px;
 }
 
-#transmutations-photo {
-	margin: 30px 0px;
-}
-
-.contacts-avatars {
-	margin: 35px 0px;
-}
-
-.sponsors-content {
-	a {
-		margin: 5px 0px;
-	}
+.image-sized {
+	height: 100px;
+	width: 100px;
 }

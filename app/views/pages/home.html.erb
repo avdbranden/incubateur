@@ -1,31 +1,85 @@
-<!-- Banner -->
+<!-- Main banner-->
 
-<div class="banner">
+<div class="main-banner">
   <div class="banner-content text-center">
     <h1>L'avocat au coeur de l'innovation</h1>
     <p>L'Incubateur d'Avocats.be donne les outils nécessaires à l'avocats pour surfer la vague du digital</p>
   </div>
 </div>
 
+<!-- TODO -->
 
-<!-- Title -->
-
-<div class="title text-center">
+<div class="constat">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-				<div class="title-content">
-					<h1>L'Electrochoc Numérique</h1>
-					<h2 id="avenir">Assurons notre avenir</h2>
-
-					<%= render 'logos' %>
-
-					<h2 id="rencontre">Une rencontre organisée par Avocats.be</h2>
-					<h4>avec le soutien de l'UIA, du Barreau de Bruxelles et de Trans-Mutation (université d'été)​</h4>
+				<div class="constat-title text-center">
+					<h1>Un constat</h1>
+					<h2>La vague du digital est</h2>
+				</div>
+				<!-- Constat nr -->
+				<div class="constat-content">
+					<%= image_tag("wave.png", class: "img-circle image-sized")%>
+					<h2>Irrésisistible</h2>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
+
+
+<!-- Banner Mission -->
+
+<div class="missions-banner">
+  <div class="banner-content text-center">
+    <h1>Les missions de l'Incubateur</h1>
+    <p>L'Incubateur d'Avocats.be réalise trois missions principales</p>
+  </div>
+</div>
+
+
+<!-- Title -->
+
+<% mission_count = 0 %>
+
+<div class="mission">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<!-- Mission nr -->
+				<div class="mission-content">
+					<div class="circle"><%= mission_count += 1 %></div>
+					<div class="mission-description">
+						<h2>Diffuser la connaissance parmi les avocats</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi rerum assumenda voluptatibus maxime natus adipisci dolorem temporibus sapiente atque, reprehenderit quo deserunt doloribus? Soluta excepturi minus ratione. Incidunt, quod.</p>
+					</div>
+				</div>
+				<!-- Mission nr -->
+				<div class="mission-content">
+					<div class="circle"><%= mission_count += 1 %></div>
+					<div class="mission-description">
+						<h2>Promouvoir l'innovation au sein de la profession</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi rerum assumenda voluptatibus maxime natus adipisci dolorem temporibus sapiente atque, reprehenderit quo deserunt doloribus? Soluta excepturi minus ratione. Incidunt, quod.</p>
+					</div>
+				</div>
+				<!-- Mission nr -->
+				<div class="mission-content">
+					<div class="circle"><%= mission_count += 1 %></div>
+					<div class="mission-description">
+						<h2>Partager l'information vers le monde extérieur</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi rerum assumenda voluptatibus maxime natus adipisci dolorem temporibus sapiente atque, reprehenderit quo deserunt doloribus? Soluta excepturi minus ratione. Incidunt, quod.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="projects-banner">
+  <div class="banner-content text-center">
+    <h1>Les projets de l'Incubateur</h1>
+    <p>L'Incubateur d'Avocats.be met en oeuvre des projets à l'intersection du droit et de l'innovation</p>
+  </div>
 </div>
 
 <!-- Mutation -->
@@ -94,26 +148,6 @@
 	</div>
 </div>
 
-<!-- Inscriptions -->
 
-<div class="inscriptions text-center">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<div class="inscriptions-content">
-					<h2>Inscriptions</h2>
-					<p>Frais d'inscription TTC</p>
-					<P>Avocats : 60 EUR</p>
-					<p>Avocats stagiaires et magistrats : 30 EUR</p>
-					<p>Autres : 80 EUR</p>
-					<p>A verser sur le compte de l'OBFG</p> 
-					<p>IBAN : BE49 6300 7693 1971<p>
-					<p>Le paiement vaut inscription définitive.</p>
-					<%= link_to "Procédez à l'inscription", "https://lynxor.events/enum2016", target: '_blank', class: "btn btn-success btn-lg"%>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
 
 
