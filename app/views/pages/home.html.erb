@@ -9,24 +9,60 @@
 
 <!-- TODO -->
 
-<div class="constat">
+<div class="constat text-center">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12">
-				<div class="constat-title text-center">
-					<h1>Un constat</h1>
-					<h2>La vague du digital est</h2>
-				</div>
-				<!-- Constat nr -->
-				<div class="constat-content">
-					<%= image_tag("wave.png", class: "img-circle image-sized")%>
-					<h2>Irrésisistible</h2>
-				</div>
+			<div class="col-md-offset-3 col-md-6 col-xs-12">
+				<h1 class="grand-format">Un constat</h1>
+				<h2 class="moyen-format">La vague du digital est</h2>
 			</div>
-		</div>
-	</div>
-</div>
+		</div> <!-- .row -->
 
+		<!-- Constat nr -->
+		<div class="row constat-content">
+			<div class="col-md-offset-3 col-md-3 col-xs-12">
+				<div><%= image_tag("wave.png", class: "img-circle img-responsive img-constat center-block")%></div> 
+			</div>
+			<div class="col-md-3 col-xs-12">	
+				<div class="right-item"><h2>Irrésisistible</h2></div> 
+			</div>
+		</div> <!-- .row -->
+
+				<!-- Constat nr -->
+		<div class="row constat-content">
+			<div class="col-md-offset-3 col-md-3 col-xs-12">
+				<div><h2>Intersectorielle</h2></div> 
+			</div>
+			<div class="col-md-3 col-xs-12">	
+				<div class="right-item"><%= image_tag("setting.ico", class: "img-circle img-responsive img-constat center-block")%></div> 
+			</div>
+		</div> <!-- .row -->
+
+		<!-- Constat nr -->
+		<div class="row constat-content">
+			<div class="col-md-offset-3 col-md-3 col-xs-12">
+				<div><%= image_tag("global.png", class: "img-circle img-responsive img-constat center-block")%></div> 
+			</div>
+			<div class="col-md-3 col-xs-12">	
+				<div class="right-item"><h2>Mondiale</h2></div> 
+			</div>
+		</div> <!-- .row -->
+
+	</div> <!-- .container -->
+</div> <!-- .constat -->
+
+<div class="lined"></div>
+
+<div class="diagnostic text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-2 col-md-8 col-xs-12">
+				<h1 class="grand-format">Un diagnostic</h1>
+				<h2 class="moyen-format">Les avocats en Belgique sont trop peu sensibilisés sur les impacts du digital sur leur profession</h2>
+			</div>
+		</div> c
+	</div> <!-- .container -->
+</div> <!-- .diagnostic -->
 
 <!-- Banner Mission -->
 
@@ -40,38 +76,52 @@
 
 <!-- Title -->
 
-<% mission_count = 0 %>
+<% count = 0 %>
 
-<div class="mission">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<!-- Mission nr -->
-				<div class="mission-content">
-					<div class="circle"><%= mission_count += 1 %></div>
-					<div class="mission-description">
-						<h2>Diffuser la connaissance parmi les avocats</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi rerum assumenda voluptatibus maxime natus adipisci dolorem temporibus sapiente atque, reprehenderit quo deserunt doloribus? Soluta excepturi minus ratione. Incidunt, quod.</p>
-					</div>
-				</div>
-				<!-- Mission nr -->
-				<div class="mission-content">
-					<div class="circle"><%= mission_count += 1 %></div>
-					<div class="mission-description">
-						<h2>Promouvoir l'innovation au sein de la profession</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi rerum assumenda voluptatibus maxime natus adipisci dolorem temporibus sapiente atque, reprehenderit quo deserunt doloribus? Soluta excepturi minus ratione. Incidunt, quod.</p>
-					</div>
-				</div>
-				<!-- Mission nr -->
-				<div class="mission-content">
-					<div class="circle"><%= mission_count += 1 %></div>
-					<div class="mission-description">
-						<h2>Partager l'information vers le monde extérieur</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi rerum assumenda voluptatibus maxime natus adipisci dolorem temporibus sapiente atque, reprehenderit quo deserunt doloribus? Soluta excepturi minus ratione. Incidunt, quod.</p>
-					</div>
-				</div>
-			</div>
+<div class="container mission frame">
+
+	<!-- Mission nr -->
+	<div class="row frame-content">
+		<div class="col-md-offset-2 col-md-1">
+			<div class="circle frame-count"><%= count += 1 %></div>
 		</div>
+		<div class="col-md-7">
+			<div class="frame-description">
+				<h2 class="moyen-format">Diffuser la connaissance</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi rerum assumenda voluptatibus maxime natus adipisci dolorem temporibus sapiente atque, reprehenderit quo deserunt doloribus? Soluta excepturi minus ratione. Incidunt, quod.</p>
+			</div>
+		</div>		
+	</div>  <!-- .row .frame-content -->
+
+	<!-- Mission nr -->
+	<div class="row frame-content">
+		<div class="col-md-offset-2 col-md-1">
+			<div class="circle frame-count"><%= count += 1 %></div>
+		</div>
+		<div class="col-md-7">
+			<div class="frame-description">
+				<h2 class="moyen-format">Promouvoir l'innovation</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi rerum assumenda voluptatibus maxime natus adipisci dolorem temporibus sapiente atque, reprehenderit quo deserunt doloribus? Soluta excepturi minus ratione. Incidunt, quod.</p>
+			</div>
+		</div>		
+	</div>  <!-- .row .frame-content -->
+
+	<!-- Mission nr -->
+	<div class="row frame-content">
+		<div class="col-md-offset-2 col-md-1">
+			<div class="circle frame-count"><%= count += 1 %></div>
+		</div>
+		<div class="col-md-7">
+			<div class="frame-description">
+				<h2 class="moyen-format">Partager l'information</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi rerum assumenda voluptatibus maxime natus adipisci dolorem temporibus sapiente atque, reprehenderit quo deserunt doloribus? Soluta excepturi minus ratione. Incidunt, quod.</p>
+			</div>
+		</div>		
+	</div>  <!-- .row .frame-content -->
+
+</div> <!-- .container .mission -->
+		
+
 	</div>
 </div>
 
@@ -84,70 +134,69 @@
 
 <!-- Mutation -->
 
-<div class="mutation">
-	<div class="container text-center">
-		<div class="row">
-			<div class="col-md-offset-2 col-md-8 col-xs-12">
-				<div class="mutation-content">
-					<h2>Le monde juridique est en mutation</h2>
-					<div class="whitepaper">
-						<%= link_to "Lisez l'intervention", "https://drive.google.com/open?id=0B8IrvRDLbpHBOWhNVUU2blVEZUE", target: '_blank', class: "btn btn-danger btn-lg"%>
-						<h4>de <strong>Stanislas van Wassenhove</strong>, avocat</h4>
-					</div>
-				</div>
-			</div>
+<% count = 0 %>
+
+<div class="container project frame">
+
+	<!-- project nr -->
+	<div class="row frame-content">
+		<div class="col-md-offset-2 col-md-1">
+			<div class="circle frame-count light-blue"><%= count += 1 %></div>
 		</div>
+		<div class="col-md-7">
+			<div class="frame-description">
+				<h2 class="moyen-format">Les Prix de l'Innovation</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi rerum assumenda voluptatibus maxime natus adipisci dolorem temporibus sapiente atque, reprehenderit quo deserunt doloribus? Soluta excepturi minus ratione. Incidunt, quod.</p>
+			</div>
+		</div>	
+	</div>  <!-- .row .frame-content -->
+	<div class="row frame-btn">
+		<div class="col-md-offset-4 col-md-4">
+			<%= link_to "Plus d'informations", prix_path, class: "btn btn-primary btn-lg" %>
+		</div>
+	</div> <!-- .row .frame-btn -->
+
+	<!-- project nr -->
+	<div class="row frame-content">
+		<div class="col-md-offset-2 col-md-1">
+			<div class="circle frame-count light-blue"><%= count += 1 %></div>
+		</div>
+		<div class="col-md-7">
+			<div class="frame-description">
+				<h2 class="moyen-format">La conférence sur l'innovation</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi rerum assumenda voluptatibus maxime natus adipisci dolorem temporibus sapiente atque, reprehenderit quo deserunt doloribus? Soluta excepturi minus ratione. Incidunt, quod.</p>
+			</div>
+		</div>	
+	</div>  <!-- .row .frame-content -->
+
+	<!-- project nr -->
+	<div class="row frame-content">
+		<div class="col-md-offset-2 col-md-1">
+			<div class="circle frame-count light-blue"><%= count += 1 %></div>
+		</div>
+		<div class="col-md-7">
+			<div class="frame-description">
+				<h2 class="moyen-format">La charte éthique</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi rerum assumenda voluptatibus maxime natus adipisci dolorem temporibus sapiente atque, reprehenderit quo deserunt doloribus? Soluta excepturi minus ratione. Incidunt, quod.</p>
+			</div>
+		</div>	
+	</div>  <!-- .row .frame-content -->
+
+	<!-- project nr -->
+	<div class="row frame-content">
+		<div class="col-md-offset-2 col-md-1">
+			<div class="circle frame-count light-blue"><%= count += 1 %></div>
+		</div>
+		<div class="col-md-7">
+			<div class="frame-description">
+				<h2 class="moyen-format">Le comparateur de logiciel</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi rerum assumenda voluptatibus maxime natus adipisci dolorem temporibus sapiente atque, reprehenderit quo deserunt doloribus? Soluta excepturi minus ratione. Incidunt, quod.</p>
+			</div>
+		</div>	
+	</div>  <!-- .row .frame-content -->
+
+</div> <!-- .container .project -->
+		
+
 	</div>
 </div>
-
-<!-- Image -->
-
-<div class="image text-center">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-offset-3 col-md-6 col-xs-12">
-				<div class="image-content">
-					<%= image_tag "electrochoc.jpg", class: "img-responsive" %>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Summary -->
-
-<div class="summary text-center">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<div class="summary-content">
-					<h4><strong>Quoi ? </strong>Une journée d'information et de réflexion sur la révolution numérique et la transformation de l'avocat</h4>
-					<h4><strong>Quand ? </strong>Le 15 décembre 2016 de 8h30 à 17h30</h4>
-					<h4><strong>Où ? </strong>Dans les locaux de la FEB- rue de Ravenstein, 4 à 1000 Bruxelles</h4>
-					<h4><strong>Qui ? </strong>Tous les avocats membres de l'OBFG mais aussi les autres acteurs de la Justice</h4>
-					<h4><strong>Tarif ? </strong>60 EUR pour les avocats, 30 EUR pour les avocats stagiaires et les magistrats, 80 EUR pour les autres</h4>
-					<h4><u><strong>NB : </strong>6 points de formation</u></h4>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Teasing -->
-
-<div class="teasing text-center">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<div class="teasing-content">
-					<p><em>"Le monde juridique est en papier et la révolution numérique est en cours. Allons-nous rater le train ou nous engageons nous vers la vision de l'avocat du futur qui nous apportera croissance et épanouissement? Les outils numériques sont à notre disposition pour faire ce parcours et mettre de manière plus efficiente et collaborative notre expertise et notre écoute aux services de nos clients et de la Justice. Cette évolution nous concerne tous. Venez découvrir durant cette journée, les outils mais aussi la manière de faire évoluer votre pratique. Nous aiderons les autres acteurs de Justice à prendre le train en marche."</em></p>
-					<h4><strong>Jean-Pierre Buyle</strong>, président d'Avocats.be</h4>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-
-

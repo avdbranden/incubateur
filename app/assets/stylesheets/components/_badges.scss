@@ -8,5 +8,8 @@
   white-space: nowrap; /* interdiction de passer à la ligne */
   text-align: center;
   background: #0365C0;
-  font-weight: bold
+  font-weight: bold;
+  .light-blue {
+    background: #51A7F9;
+  }
 }
