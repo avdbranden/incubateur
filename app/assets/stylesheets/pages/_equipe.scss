@@ -1,0 +1,40 @@
+div.equipe {
+  margin-top: 100px;
+  h1 {
+    margin-bottom: 15px;
+  }
+}
+
+div.equipe-card {
+  margin-top: 35px;
+  .panel-heading {
+    background: $light-gray;
+    padding: 30px;
+    h2 {
+      font-size: 36px;
+      font-weight: 600;
+      margin-bottom: 25px;
+    }
+    p {
+      font-weight: 600;
+    }
+  }
+  .panel-body {
+    .member-card {
+      margin-top: 15px;
+      margin-bottom: 10px;
+    }
+    .member-picture {
+      h3 {
+        font-weight: 500;
+      }
+      .first-name {
+        font-size: 24px;
+      }
+    }
+    .member-bio {
+      height: 280px;
+      line-height: 28px;
+    }
+  }
+}

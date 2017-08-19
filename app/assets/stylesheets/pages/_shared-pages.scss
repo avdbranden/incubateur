@@ -2,6 +2,10 @@ div.lined {
 	border-top: solid 3px $light-gray;
 }
 
+div.lined-down {
+  border-bottom: solid 3px $light-gray;
+}
+
 div.ligh-gray {
   background-color: $light-gray;
 }
