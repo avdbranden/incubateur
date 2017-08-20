@@ -2,6 +2,10 @@ div.lined {
 	border-top: solid 3px $light-gray;
 }
 
+div.lined-middle-gray {
+  border-top: solid 3px $middle-gray;
+}
+
 div.lined-down {
   border-bottom: solid 3px $light-gray;
 }
@@ -15,4 +19,8 @@ div.title {
   h1 {
     margin-bottom: 15px;
   }
+}
+
+body {
+  background-color: $light-gray
 }
