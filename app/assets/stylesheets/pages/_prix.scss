@@ -1,0 +1,44 @@
+
+div.title {
+  margin-bottom: 20px;
+}
+
+div.prix-description {
+  margin-top: 40px;
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+div.category-card {
+  padding: 20px;
+  border: solid 1px $gray;
+  box-shadow: 2px 2px 2px 2px $middle-gray;
+  color: white;
+}
+.fa-rocket {
+  font-size: 150px;
+}
+.fa-lightbulb-o {
+  font-size: 150px;
+}
+h3 {
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.rocket {
+  background-color: $blue;
+}
+.lightbulb {
+  background-color: $green;
+}
+button {
+  padding: 15px;
+}
+
+div.ceremonie {
+  margin-top: 60px;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+

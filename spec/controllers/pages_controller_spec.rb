@@ -10,9 +10,9 @@ RSpec.describe PagesController, :type => :controller do
     end
   end
 
-  describe "GET #programme" do
+  describe "GET #equipe" do
     it "responds successfully with an HTTP 200 status code" do
-      get :programme
+      get :equipe
       expect(response).to be_success
       expect(response).to have_http_status(200)
     end
@@ -26,8 +26,8 @@ RSpec.describe PagesController, :type => :controller do
     end
   end
 
-  describe "GET #sponsor" do
-    it "responds successfully with an HTTP 200 status code" do
+  describe "GET #prix" do
+    it "prix successfully with an HTTP 200 status code" do
       get :contact
       expect(response).to be_success
       expect(response).to have_http_status(200)

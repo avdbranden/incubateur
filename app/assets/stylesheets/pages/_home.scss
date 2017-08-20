@@ -1,75 +1,51 @@
-h2 {
-	font-size: 40px;
-	&#rencontre {
-		font-size: 35px;
-		margin-top: 80px;
-	}
-	&#avenir {
-		margin-bottom: 50px;
-	}
-}
-
-div.mutation {
-	background-color: $light-gray;
-	padding-top: 90px;
-	padding-bottom: 90px;
-	div.mutation-content {
-		border: solid 2px gray;
-		border-radius: 2px;
-		background-color: $body-bg;
-		div.whitepaper {
-		    margin-top: 50px;
-		    a {
-		    	padding: 20px;
-		    	font-size: 24px;
-		    }
-		}
-	}
-}
-
-div.image {
-	margin: 40px;
-}
-
-div.summary {
-	padding-bottom: 60px;
-}
-
-div.teasing {
-    padding: 65px;
-    background-color: $light-gray;
-    p {
-    	font-size: 18px;
+.frame {
+	margin-top: 50px;
+	margin-bottom: 60px;
+	.frame-content {
+		margin-top: 20px;
+		margin-bottom: 20px;
+    .frame-count {
+      margin-top: 25px;
     }
-}
-
-div.interventions {
-	margin: 40px auto;
-	h2 {
-		margin-bottom: 40px;
-	}
-	a {
-		margin-top: 30px;
 	}
 }
 
-div.inscriptions {
-	padding-top: 25px;
-	padding-bottom: 60px;
-	background-color: $light-gray;
-	a {
-		margin-top: 30px;
-	}
+
+.constat {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-div.sponsors {
-	margin: 40px 0 40px 0;
-	div.big-sponsor {
-		margin: 10px 0 30px 0;
-	}
-	div.small-sponsors {
-		margin-top: 30px;
-    	margin-bottom: 180px
-	}
+
+.constat-content {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  .img-constat {
+  	height: 150px;
+  	width: 150px;
+  }
+  .right-item {
+  	padding-left: 50px;
+  }
+  h2 {
+      padding-top: 35px;
+  }
+}
+
+.diagnostic {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/* texts */
+
+h1.grand-format {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h2.moyen-format {
+  font-weight: 400;
+  font-size: 40px;
 }
 
