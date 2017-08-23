@@ -25,7 +25,6 @@
   	width: 150px;
   }
   .right-item {
-  	padding-left: 50px;
   }
   h2 {
       padding-top: 35px;
@@ -48,5 +47,19 @@ h1.grand-format {
 h2.moyen-format {
   font-weight: 400;
   font-size: 40px;
+}
+
+@media (max-width: 767px) {
+
+  // Align text to center.
+  .frame-description{
+    text-align: center;
+  } 
+  .frame-count {
+    margin: 0 auto;
+  }
+  .frame-btn {
+    margin-left: 80px;
+  }
 }
 
