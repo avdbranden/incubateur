@@ -42,3 +42,10 @@ div.ceremonie {
   padding-bottom: 80px;
 }
 
+@media (max-width: 767px) {
+  // Align text to center.
+  .rocket {
+    margin-bottom: 40px;
+  }
+}
+
