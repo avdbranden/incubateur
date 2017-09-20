@@ -9,6 +9,6 @@ RSpec.feature "Simple visit and inscription", :type => :feature do
     visit "/"
 
     click_link "Plus d'informations"
-    expect(page).to have_text("Prix de l'Innovation")
+    expect(page).to have_text("Prix de l'innovation")
   end
 end

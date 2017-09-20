@@ -11,8 +11,8 @@ div.prix-description {
 
 div.category-card {
   padding: 20px;
-  border: solid 1px $gray;
-  box-shadow: 2px 2px 2px 2px $middle-gray;
+  border: solid 1px $middle-gray;
+  box-shadow: 2px 2px 2px 2px $light-gray;
   color: white;
 }
 .fa-rocket {
@@ -36,10 +36,40 @@ button {
   padding: 15px;
 }
 
+div.download-btn {
+  border: solid 1px $gray;
+  box-shadow: 2px 2px 2px 2px $middle-gray;
+  background-color: $yellow;
+  color: white;
+  font-size: 22px;
+  margin-top: 35px;
+  a {
+    color: white;
+    i {
+      font-size: 90px;
+    }
+  }
+}
+
+div.reglement {
+  margin-top: 80px;
+  padding-top: 35px;
+}
+
 div.ceremonie {
   margin-top: 60px;
   padding-top: 50px;
-  padding-bottom: 80px;
+  padding-bottom: 45px;
+  h2 {
+    font-size: 44px;
+  }
+  p {
+    text-align: left;
+    &.prix {
+      font-weight: 600;
+      padding-bottom: 15px;
+    }
+  }
 }
 
 @media (max-width: 767px) {
