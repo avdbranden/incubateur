@@ -16,7 +16,7 @@ gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'autoprefixer-rails'
 
-# To work with GA snippet
+# To work with google analytics snippet
 gem 'coffee-rails'
 
 group :development, :test do
