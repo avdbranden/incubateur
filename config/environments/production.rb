@@ -86,5 +86,5 @@ Rails.application.configure do
 
   # Google analytics
   # replace this with your tracker code
-  GA.tracker = "UA-90727113-1"
+  # GA.tracker = "UA-90727113-1"
 end
