@@ -1,4 +1,4 @@
-### sourced from: https://gist.github.com/esBeee/545653241530f8f2c2e16371bec56f20
+# sourced from: https://gist.github.com/esBeee/545653241530f8f2c2e16371bec56f20
 
 # Put this file into your assets/javascripts/ folder and assure
 # it gets loaded by checking or editing your assets/javascripts/application.js
