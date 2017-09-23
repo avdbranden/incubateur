@@ -11,9 +11,7 @@
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= favicon_link_tag "inc1.png"%>
     
-    <!-- sourced from: https://gist.github.com/esBeee/545653241530f8f2c2e16371bec56f20 -->
-
-    <% if Rails.env.production? %>
+    <% # if Rails.env.production? %>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -24,7 +22,7 @@
           ga('send', 'pageview');
 
         </script>
-    <% end %>
+    <% # end %>
   </head>
   <body>
     <%= render 'shared/navbar' %>
