@@ -24,3 +24,9 @@ div.title {
 body {
   background-color: $light-gray
 }
+
+div.footer {
+  li {
+    display: inline;
+  }
+}
