@@ -9,6 +9,34 @@ div.prix-description {
   margin-bottom: 60px;
 }
 
+div.jury-avocat {
+  border: 2px solid $middle-gray;
+  border-radius: 2px;
+  box-shadow: 0 0 10px $light-gray;
+  margin-top: 40px;
+}
+
+div.jury-titre {
+  background-color: $dark-gray;
+  color: white;
+  height: 90px;
+}
+
+div.jury-card {
+  h3.jury-first-name {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: -22px;
+  }
+  h3.jury-name {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  h3.jury-title {
+    font-size: 22px;
+  }
+}
+
 div.rocket-column {
   margin-bottom: 50px;
 }
@@ -29,6 +57,10 @@ h3 {
   font-size: 40px;
   font-weight: 300;
   margin-bottom: 30px;
+}
+h4 {
+  font-size: 25px;
+  font-weight: 300;
 }
 .rocket {
   background-color: $blue;
