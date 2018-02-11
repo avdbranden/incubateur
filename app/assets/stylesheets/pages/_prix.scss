@@ -111,3 +111,10 @@ div.reglement {
   }
 }
 
+@media (max-width: 767px) {
+  // Increase size of header tab.
+  div.jury-titre {
+    height: 130px;
+  }
+}
+
