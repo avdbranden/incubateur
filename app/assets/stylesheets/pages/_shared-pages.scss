@@ -30,3 +30,19 @@ div.footer {
     display: inline;
   }
 }
+
+div.volet {
+  margin-top: 60px;
+  padding-top: 50px;
+  padding-bottom: 45px;
+  h2 {
+    font-size: 44px;
+  }
+  p {
+    text-align: left;
+    &.volet-box {
+      font-weight: 600;
+      padding-bottom: 15px;
+    }
+  }
+}
