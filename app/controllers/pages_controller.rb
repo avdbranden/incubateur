@@ -10,4 +10,7 @@ class PagesController < ApplicationController
 
   def equipe
   end
+
+  def avocatconnecte
+  end
 end
