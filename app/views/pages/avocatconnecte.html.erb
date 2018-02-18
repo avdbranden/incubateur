@@ -9,13 +9,19 @@
   </div> <!-- .row -->
 </div> <!-- .container .contacts -->
 
+<!-- AFFICHE -->
+
 <div class="container affiche text-center">
   <div class="row">
     <div class="col-md-offset-1 col-md-10 col-xs-12">
-      <%= image_tag "avocatconnecte.jpg", class: "img-responsive img-rounded" %>
+      <%= link_to "https://www.weezevent.com/l-avocat-connecte-6-pistes-pour-un-bon-depart?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BY8%2FJ3lOLS624S6X30cbEpw%3D%3D", target: "_blank" do %>
+        <%= image_tag "avocatconnecte.jpg", class: "img-responsive img-rounded img-thumbnail" %>
+      <% end %>
     </div>
   </div>
 </div> <!-- .container -->
+
+<!-- INSCRIPTIONS -->
 
 <div class="container volet text-center lined-middle-gray">
   <div class="row">
@@ -32,3 +38,27 @@
     </div>
   </div> <!-- .row -->
 </div> <!-- .container .ceremonie -->
+
+<!-- PARTENAIRES -->
+
+<div class="container title text-center lined-middle-gray partners">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>Partenaires</h1>
+    </div>
+  </div> <!-- .row -->
+  <div class="row logo-partner">
+    <div class="col-md-offset-1 col-md-10 col-xs-12">
+      <%= link_to "https://www.my-lawyer.be/", target: "_blank" do %>
+        <%= image_tag "mylawyer.jpg", class: "img-responsive img-rounded center-block" %>
+       <% end %> 
+    </div>
+  </div>
+  <div class="row logo-partner">
+    <div class="col-md-offset-1 col-md-10 col-xs-12">
+      <%= link_to "https://www.larciergroup.com/fr", target: "_blank" do %>
+        <%= image_tag "larcierGroup.jpg", class: "img-responsive img-rounded center-block" %>
+      <% end %>
+    </div>
+  </div>
+</div> <!-- .container .contacts -->
