@@ -16,6 +16,11 @@ div.equipe-card {
     .member-card {
       margin-top: 15px;
       margin-bottom: 10px;
+      img {
+  
+      margin-bottom: 5px;
+      box-shadow: 0 0 8px $middle-grayer;
+      }
     }
     .member-picture {
       h3 {
