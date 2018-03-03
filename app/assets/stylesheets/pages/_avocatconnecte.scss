@@ -2,6 +2,31 @@ div.affiche {
   margin-top: 50px;
 }
 
+h1.programme {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+h3.intercalaire {
+  margin-top: 35px;
+  margin-bottom: -8px;
+}
+
+h4.conclusions {
+  margin-top: 40px;
+}
+
+div.paneliste {
+  border: 1px dotted $dark-gray;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  padding: 10Px;
+  border-radius: 3px;
+  p {
+    padding-left: 25px;
+  }
+}
+
 div.partners {
   padding-top: 50px;
   div.logo-partner {
@@ -9,3 +34,6 @@ div.partners {
     margin-bottom: 40px;
   }
 }
+
+
+
