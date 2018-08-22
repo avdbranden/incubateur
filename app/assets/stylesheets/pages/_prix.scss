@@ -17,3 +17,14 @@ div.download-btn {
     }
   }
 }
+
+div.alert {
+	margin-top: 105px;
+}
+
+@media (min-width: 600px) {
+  // Diminish height of alert box on large screen devices.
+  div.alert {
+    margin-top: 50px;
+  }
+}
