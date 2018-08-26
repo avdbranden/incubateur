@@ -1,265 +1,91 @@
 <!-- PRIX -->
 
 <div class="container title text-center">
-	<div class="row">
-		<div class="col-xs-12">
-			<h1>Les Prix de l'innovation 2017</h1>
-		</div>
-	</div> <!-- .row -->
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>Les Prix de l'innovation 2018</h1>
+    </div>
+  </div> <!-- .row -->
 </div> <!-- .container .equipe -->
-
-<!-- LAUREATS 2017 -->
-
-<div class="container laureats text-center">
-	<div class="row">
-		<div class="col-md-offset-3 col-md-6 col-xs-12">
-			<div class="lined-middle-gray">
-				<h3>Félicitations à</h3> 
-				<h2><b>Alexiane Wyns</b> (catégorie Avocat)</h2> 
-				<h2><b>Lex.be</b> (catégorie LegalTech)</h2>
-				<h3>Lauréats 2017 des Prix de l'innovation !</h3>
-			</div>
-		</div>
-	</div> <!-- .row -->
-	<div class="row">
-		<div class="col-md-offset-1 col-md-10 col-xs-12">
-			<div class="photo-equipe">
-				<%= image_tag "laureats2017.JPG", class: "img-responsive img-rounded" %>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-offset-1 col-md-10 col-xs-12">
-			<p class="legende">De gauche à droite: <b>Jean-Pierre Buyle</b> (Président Avocats.be), <b>Alexiane Wyns</b> et <b>Erik De Herdt</b> (Lex.be)</p>
-		</div>
-	</div>
-</div> <!-- .container -->
 
 <!-- CATEGORIES -->
 
 <div class="container category text-center">
-	<div class="row">
-		<div class="col-md-offset-1 col-md-10 col-xs-12 lined-middle-gray">
-			<div class="prix-description">
-				<p>L'Incubateur récompense des projets innovants dans la catégorie <b>Avocat</b> et dans la catégorie <b>LegalTech</b> au cours d'une cérémonie de remise des Prix de l'innovation</p>
-			</div>
-		</div>
-	</div> <!-- .row -->
-	<div class="row">
-		<div class="col-md-offset-1 col-md-4 col-xs-12 rocket-column">
-			<div class="category-card rocket">
-				<i class="fa fa-rocket" aria-hidden="true"></i>
-				<h3>LegalTech</h3>
-			</div>
-			<div>
-				<h4>Nous avons reçu <b>8</b> dossiers dans la catégorie LegalTech !</h4>
-			</div>
-		</div>
-		<div class="col-md-offset-2 col-md-4 col-xs-12">
-			<div class="category-card lightbulb">
-				<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-				<h3>Avocat</h3>
-			</div>
-			<div>
-				<h4>Nous avons reçu <b>13</b> dossiers dans la catégorie Avocat !</h4>
-			</div>
-		</div>
-	</div> <!-- .row -->
-</div> <!-- .container .category -->
+  <div class="row">
+    <div class="col-md-offset-1 col-md-10 col-xs-12 lined-middle-gray">
+      <div class="prix-description">
+        <h4>L'Incubateur récompense des projets innovants dans le domaine du droit au cours d'une cérémonie de pitchs et de remise des Prix de l'innovation</h4>
+        <p>Les Prix seront remis dans les catégories LegalTech et Avocat</p>
+        <p>Un prix du public sera décerné sur base des pitchs de la soirée</p>
+      </div>
+    </div>
+  </div> <!-- .row -->
 
-<!-- DELIBERATION -->
+  <div class="row candidatures-ouvertes">
+    <div class="col-md-offset-1 col-md-10 col-xs-12 lined-middle-gray">
+      <h2>Les candidatures sont ouvertes jusqu'au lundi <b>1er octobre 2018</b> (minuit)</h2>
+      <p>Téléchargez le dossier de candidature approprié</p>
+    </div>
+  </div> <!-- .row -->
 
-<div class="container text-center">
-	<div class="row">
-		<div class="col-xs-12">
-			<h2>Les finalistes ont été sélectionnés !</h2>
-		</div>
-	</div> <!-- .row -->
+<!-- CARDS ROCKET ET AVOCAT -->
+
+  <div class="row">
+    <div class="col-md-offset-1 col-md-4 col-xs-12 rocket-column">
+      <div class="category-card rocket">
+        <i class="fa fa-rocket" aria-hidden="true"></i>
+        <h3>LegalTech</h3>
+      </div>
+      <div class="download-btn">
+        <%= link_to "https://drive.google.com/open?id=15XR61yC5w1AzZmZAhd4KjNR_frMS_AUs", target: "_blank" do %>
+          <i class="fa fa-cloud-download" aria-hidden="true"></i>
+          <p>Télécharger<br>Dossier de candidature</p>
+        <% end %>
+      </div> <!-- .download-btn -->
+    </div>
+    <div class="col-md-offset-2 col-md-4 col-xs-12">
+      <div class="category-card lightbulb">
+        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+        <h3>Avocat</h3>
+      </div>
+      <div class="download-btn">
+        <%= link_to "https://drive.google.com/open?id=1SrZs_7xkXQaIrNo9p-v9XBmc1d3yuMoc", target: "_blank" do %>
+          <i class="fa fa-cloud-download" aria-hidden="true"></i>
+          <p>Télécharger<br>Dossier de candidature</p>
+        <% end %>
+      </div> <!-- .download-btn -->
+    </div>
+  </div> <!-- .row -->
+
+<!-- INFOS REGLEMENT -->
+
+<div class="container reglement">
+  <div class="row candidatures-ouvertes">
+    <div class="col-md-offset-1 col-md-10 col-xs-12 lined-middle-gray">
+      <h2>Consultez le réglement des Prix de l'innovation 2018</h2>
+      <%= link_to "Règlement", "https://drive.google.com/open?id=1VUZBR1qmoTUqhGolTwfNWSO_vCNdVMe0", target: "_blank", class: "btn btn-lg btn-primary" %>
+  </div> <!-- .row -->
 </div> <!-- .container -->
-
-<!-- FiINALISTES CATEGORIE AVOCAT -->
-
-<div class="container jury-avocat text-center">
-	<div class="row">
-		<div class="col-xs-12 jury-titre">
-			<h2>3 Finalistes catégorie Avocat</h2>
-		</div>
-	</div> <!-- .row -->
-	<div class="row"> 
-		<div class="col-md-4 col-xs-12 finaliste-card">
-			<h3>Alexiane</h3>
-			<h3>Wyns</h3>
-			<p>J'anime une <%= link_to "chaîne YouTube", "https://www.youtube.com/channel/UCo0V-PX29fAUvM2lVeOjYcQ", target: "_blank" %> et je poste 3 à 5 vidéos par semaine sur des sujets liés au droit belge des affaires à destination des entreprises, et en particulier pour les TPE, start-ups et sociétés étrangères. Le but est de familiariser ce public avec le droit en expliquant des concepts de base simplement.</p>
-		</div>
-		<div class="col-md-4 col-xs-12 finaliste-card">
-			<h3>Online</h3>
-			<h3>Lawyers</h3>
-			<p><%= link_to "Online Lawyers", "https://www.onlinelawyers.be/page/homepage", target: "_blank" %> est le premier cabinet d'avocats en ligne en Belgique. L'objectif est de réinventer la profession d'avocat et ainsi de rendre le droit plus accessible en permettant de poser des questions en ligne directement à des avocats de façon sécurisée. Les délais et les prix sont connus à l'avance.</p>
-		</div>
-		<div class="col-md-4 col-xs-12 finaliste-card">
-			<h3>Simont</h3>
-			<h3>Braun</h3>
-			<p>Dès 2014, <%= link_to "Simont Braun", "http://www.simontbraun.eu/images/Digital_Finance_Team_One_Pager_pic.PDF", target: "_blank" %> a créé une équipe pluri-disciplinaire "Digital Finance" anticipant et répondant aux défis juridiques et réglementaires liés à l'arrivée des nouvelles technologies et d'acteurs disruptifs (FinTechs, InsurTechs, RegTechs, ...) dans le monde traditionnel de la bancassurfinance.</p>
-		</div>
-	</div> <!-- .row -->
-</div> <!-- .container .category -->
-
-
-<!-- FiINALISTES CATEGORIE AVOCAT -->
-
-<div class="container jury-avocat text-center">
-	<div class="row">
-		<div class="col-xs-12 jury-titre">
-			<h2>3 Finalistes catégorie LegalTech</h2>
-		</div>
-	</div> <!-- .row -->
-	<div class="row"> 
-		<div class="col-md-4 col-xs-12 finaliste-card">
-			<h3>Legal Insights</h3>
-			<p>Legal Insights de <%= link_to "Wolters Kluwer", "http://wolterskluwer.be/", target: "_blank" %> est la nouvelle génération d'outils juridiques basés sur l'intelligence artificielle. Avec cet allié, les avocats trouvent la jurisprudence belge similaire à leur affaire, élaborent leur stratégie juridique sur base des arguments des prononcés et évaluent les chances de succès du dossier.</p>
-		</div>
-		<div class="col-md-4 col-xs-12 finaliste-card">
-			<h3>Online Solution</h3>
-			<h3>Attorney</h3>
-			<p>Développée en collaboration avec des avocats, la plateforme <%= link_to "Online Solution Attorney", "https://onlinesolutionattorney.be/", target: "_blank" %> (OSA) met à disposition des avocats une interface simple d'utilisation qui leur permet de bénéficier d'une visibilité accrue et de rendre des consultations en ligne. OSA offre une flexibilité aux avocats et transparence aux clients.</p>
-		</div>
-		<div class="col-md-4 col-xs-12 finaliste-card">
-			<h3>Lex.be</h3>
-			<p><%= link_to "Lex.be", "https://lex.be/", target: "_blank" %> aide les professionnels du droit à répondre aux grands défis digitaux auxquels ils sont confrontés aujourd'hui. L'équipe de lex.be combine des années d'expérience dans le domaine de l'intelligence artificielle (en particulier Natural Language Processing et l'extraction de données) avec une compréhension du marché des avocats.</p>
-		</div>
-	</div> <!-- .row -->
-</div> <!-- .container .category -->
-
-<div class=" container lined-middle-gray"></div>
-
-<!-- MEMBRES DU JURY AVOCAT -->
-
-<div class="container jury-avocat text-center">
-	<div class="row">
-		<div class="col-xs-12 jury-titre">
-			<h2>Jury catégorie LegalTech</h2>
-		</div>
-	</div> <!-- .row -->
-	<div class="row"> <!-- .row -->
-		<div class="col-md-4 col-xs-12 jury-card">
-			<h3 class="jury-first-name">Stanislas</h3>
-			<h3 class="jury-name">van Wassenhove</h3>
-			<%= image_tag "stva.jpg", class: "img-circle img-responsive avatar" %>
-			<h3 class="jury-title">Président du jury, avocat Bruxelles</h3>
-		</div>
-		<div class="col-md-4 col-xs-12 jury-card">
-			<h3 class="jury-first-name">Dimitri</h3>
-			<h3 class="jury-name">De Sart</h3>
-			<%= image_tag "ddesart.jpg", class: "img-circle img-responsive avatar" %>
-			<h3 class="jury-title">Avocat Bruxelles</h3>
-		</div>
-		<div class="col-md-4 col-xs-12 jury-card">
-			<h3 class="jury-first-name">Michèle</h3>
-			<h3 class="jury-name">Grégoire</h3>
-			<%= image_tag "mgregoire.jpg", class: "img-circle img-responsive avatar" %>
-			<h3 class="jury-title">Avocat Bruxelles</h3>
-		</div>
-	</div>
-	<div class="row"> <!-- .row -->
-		<div class="col-md-4 col-xs-12 jury-card">
-			<h3 class="jury-first-name">Luc</h3>
-			<h3 class="jury-name">Oger</h3>
-			<%= image_tag "loger.jpg", class: "img-circle img-responsive avatar" %>
-			<h3 class="jury-title">Avocat Namur</h3>
-		</div>
-		<div class="col-md-4 col-xs-12 jury-card">
-			<h3 class="jury-first-name">Clarisse</h3>
-			<h3 class="jury-name">Berrebi</h3>
-			<%= image_tag "cberrebi.jpg", class: "img-circle img-responsive avatar" %>
-			<h3 class="jury-title">Avocat Paris</h3>
-		</div>
-		<div class="col-md-4 col-xs-12 jury-card">
-			<h3 class="jury-first-name">Jean-François</h3>
-			<h3 class="jury-name">Ledoux</h3>
-			<%= image_tag "inc1.png", class: "img-circle img-responsive avatar" %>
-			<h3 class="jury-title">Avocat Dinant</h3>
-		</div>
-	</div>
-	<div class="row"> <!-- .row -->
-		<div class="col-md-4 col-xs-12 jury-card">
-			<h3 class="jury-first-name">Patrick</h3>
-			<h3 class="jury-name">De Wolf</h3>
-			<%= image_tag "pdewolf.png", class: "img-circle img-responsive avatar" %>
-			<h3 class="jury-title">Avocat Bruxelles</h3>
-		</div>
-	</div> <!-- .row -->
-</div> <!-- .container .category -->
-
-<!-- MEMBRES DU JURY AVOCAT -->
-
-<div class="container jury-avocat text-center">
-	<div class="row">
-		<div class="col-xs-12 jury-titre">
-			<h2>Jury catégorie Avocat</h2>
-		</div>
-	</div> <!-- .row -->
-	<div class="row"> <!-- .row -->
-		<div class="col-md-4 col-xs-12 jury-card">
-			<h3 class="jury-first-name">Laurent</h3>
-			<h3 class="jury-name">Hublet</h3>
-			<%= image_tag "lhublet.jpg", class: "img-circle img-responsive avatar" %>
-			<h3 class="jury-title">Président du jury, conseiller Agenda Digital</h3>
-		</div>
-		<div class="col-md-4 col-xs-12 jury-card">
-			<h3 class="jury-first-name">François</h3>
-			<h3 class="jury-name">Reyntens</h3>
-			<%= image_tag "freyntens.jpg", class: "img-circle img-responsive avatar" %>
-			<h3 class="jury-title">General Counsel Elia Group</h3>
-		</div>
-		<div class="col-md-4 col-xs-12 jury-card">
-			<h3 class="jury-first-name">Ludo</h3>
-			<h3 class="jury-name">Declerck</h3>
-			<%= image_tag "ldeclerck.jpg", class: "img-circle img-responsive avatar" %>
-			<h3 class="jury-title">Président IJE</h3>
-		</div>
-	</div>
-	<div class="row"> <!-- .row -->
-		<div class="col-md-4 col-xs-12 jury-card">
-			<h3 class="jury-first-name">Alexis</h3>
-			<h3 class="jury-name">Deborde</h3>
-			<%= image_tag "adeborde.jpg", class: "img-circle img-responsive avatar" %>
-			<h3 class="jury-title">Fondateur Leganov</h3>
-		</div>
-		<div class="col-md-4 col-xs-12 jury-card">
-			<h3 class="jury-first-name">Cécile</h3>
-			<h3 class="jury-name">Jabaudon</h3>
-			<%= image_tag "cjabaudon.jpg", class: "img-circle img-responsive avatar" %>
-			<h3 class="jury-title">Operational Director Microsoft Innovation Centre Bruxelles</h3>
-		</div>
-	</div> <!-- .row -->
-</div> <!-- .container .category -->
-
-<!-- REGLEMENT -->
-
-<div class="container reglement text-center">
-	<div class="row">
-		<div class="col-xs-12">
-			<h3>Consultez le règlement de la remise des Prix</h2>
-			<%= link_to "Règlement", "https://drive.google.com/open?id=0B8IrvRDLbpHBTV9FdlNwOFlLMDQ", target: "_blank", class: "btn btn-lg btn-primary" %>
-		</div>
-	</div>
-</div>
 
 <!-- INFOS CEREMONIE -->
 
 <div class="container volet text-center lined-middle-gray">
-	<div class="row">
-		<div class="col-md-offset-1 col-md-4 col-xs-12">
-			<h2>Cérémonie</h2>
-			<h3>Infos pratiques</h3>
-			<p>Jeudi <b>14 décembre 2017</b> à 17h45 précises</p>
-			<p>Fédération des Entreprises de Belgique, Salle Horta</p>
-			<p>4 rue Ravenstein, 1000 Bruxelles</p>
-			<p class="volet-box">Prix: 10 EUR</p>
-			<%= link_to "Inscriptions", "http://numerique.avocats.be", target: "_blank", class: "btn btn-lg btn-primary" %>
-		</div>
-		<div class="col-md-offset-1 col-md-5 col-xs-12">
-			<%= image_tag "horta.jpg", class: "img-responsive img-thumbnail volet-img" %>
-		</div>
-	</div> <!-- .row -->
+  <div class="row">
+    <div class="col-md-offset-1 col-md-4 col-xs-12">
+      <h2>Cérémonie</h2>
+      <h3>Infos pratiques</h3>
+      <p>Jeudi <b>13 décembre 2017</b> à 17h30 précises</p>
+      <p>Fédération des Entreprises de Belgique, Salle Horta</p>
+      <p>4 rue Ravenstein, 1000 Bruxelles</p>
+    </div>
+    <div class="col-md-offset-1 col-md-5 col-xs-12">
+      <%= image_tag "horta.jpg", class: "img-responsive img-thumbnail volet-img" %>
+    </div>
+  </div> <!-- .row -->
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Voyez les résultats de l'édition 2017</h2>
+      <%= link_to "Edition 2017", prix2017_path, target: "_blank", class: "btn btn-lg btn-success" %>
+    </div>
+  </div> <!-- .row -->
 </div> <!-- .container -->

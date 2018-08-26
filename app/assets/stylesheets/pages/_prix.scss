@@ -1,87 +1,13 @@
-
-div.title {
-  margin-bottom: 20px;
+div.candidatures-ouvertes {
+  margin-top: 20px;
+  margin-bottom: 35px;
 }
 
-div.laureats {
-  p {
-    margin-top: -40px;
-    margin-bottom: 60px;
+div.reglement {
+  h2 {
+    padding-top: 50px;
+    margin-bottom: 30px;
   }
-}
-
-div.prix-description {
-  margin-top: 40px;
-  font-size: 20px;
-  margin-bottom: 60px;
-}
-
-div.jury-avocat {
-  border: 2px solid $middle-gray;
-  border-radius: 2px;
-  box-shadow: 0 0 10px $light-gray;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-div.finaliste-card {
-
-}
-
-div.jury-titre {
-  background-color: $dark-gray;
-  color: white;
-  height: 90px;
-}
-
-div.jury-card {
-  h3.jury-first-name {
-    font-size: 25px;
-    font-weight: 400;
-    margin-bottom: -22px;
-  }
-  h3.jury-name {
-    font-size: 25px;
-    font-weight: 400;
-  }
-  h3.jury-title {
-    font-size: 22px;
-  }
-}
-
-div.rocket-column {
-  margin-bottom: 50px;
-}
-
-div.category-card {
-  padding: 20px;
-  border: solid 1px $middle-gray;
-  box-shadow: 2px 2px 2px 2px $light-gray;
-  color: white;
-}
-.fa-rocket {
-  font-size: 150px;
-}
-.fa-lightbulb-o {
-  font-size: 150px;
-}
-h3 {
-  font-size: 40px;
-  font-weight: 300;
-  margin-bottom: 30px;
-}
-h4 {
-  font-size: 25px;
-  font-weight: 300;
-}
-.rocket {
-  background-color: $blue;
-}
-.lightbulb {
-  background-color: $green;
-}
-button {
-  padding: 15px;
 }
 
 div.download-btn {
@@ -99,22 +25,13 @@ div.download-btn {
   }
 }
 
-div.reglement {
-  margin-top: 80px;
-  padding-top: 35px;
+div.alert {
+	margin-top: 105px;
 }
 
-@media (max-width: 767px) {
-  // Align text to center.
-  .rocket {
-    margin-bottom: 40px;
+@media (min-width: 600px) {
+  // Diminish height of alert box on large screen devices.
+  div.alert {
+    margin-top: 50px;
   }
 }
-
-@media (max-width: 767px) {
-  // Increase size of header tab.
-  div.jury-titre {
-    height: 130px;
-  }
-}
-
