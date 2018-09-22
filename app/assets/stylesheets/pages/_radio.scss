@@ -28,5 +28,10 @@ div.radio-links {
     &.orange {
       background-color: $orange;
     }
+    img {
+      &.soundcloud {
+           width: max-content;
+      }
+    }
   }
 }
