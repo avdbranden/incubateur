@@ -35,5 +35,12 @@ div.equipe-card {
       line-height: 28px;
       height: 100%;
     }
+    .equipe-links {
+      display: flex;
+      flex-direction: row;
+      a {
+        margin-right: 30px;
+      }
+    }
   }
 }
