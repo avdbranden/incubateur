@@ -42,4 +42,12 @@ RSpec.describe PagesController, :type => :controller do
     end
   end
 
+  describe "GET #radio" do
+    it "radio successfully with an HTTP 200 status code" do
+      get :avocatconnecte
+      expect(response).to be_success
+      expect(response).to have_http_status(200)
+    end
+  end
+
 end
