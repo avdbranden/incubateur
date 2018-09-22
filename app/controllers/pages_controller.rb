@@ -16,4 +16,7 @@ class PagesController < ApplicationController
 
   def avocatconnecte
   end
+
+  def radio
+  end
 end

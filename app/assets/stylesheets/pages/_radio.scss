@@ -1,0 +1,32 @@
+div.radio {
+  p {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+}
+
+div.radio-links {
+  margin-bottom: 45px;
+  div.radio-btn {
+    box-shadow: 2px 2px 2px 2px $middle-gray;
+    font-size: 22px;
+    margin-top: 35px;
+    img {
+      height: 175px;
+    }
+    a {
+      color: white;
+    }
+    p {
+      padding: 20px;
+      font-size: 25px;
+    }
+    &.red {
+      background-color: $red;
+    }
+    &.orange {
+      background-color: $orange;
+    }
+  }
+}
