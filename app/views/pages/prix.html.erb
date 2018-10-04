@@ -14,16 +14,22 @@
   <div class="row">
     <div class="col-md-offset-1 col-md-10 col-xs-12 lined-middle-gray">
       <div class="prix-description">
-        <h4>L'Incubateur récompense des projets innovants dans le domaine du droit au cours d'une cérémonie de pitchs et de remise des Prix de l'innovation</h4>
+        <h4>L'Incubateur récompense des projets innovants dans le domaine du droit au cours d'une <b>cérémonie</b> de pitchs et de remise des Prix de l'innovation</h4>
         <p>Les Prix seront remis dans les catégories LegalTech et Avocat</p>
         <p>Un prix du public sera décerné sur base des pitchs de la soirée</p>
+        <div class="cocktail-inscriptions">
+          <h4>Vous souhaitez vous inscrire au <b>cocktail dînatoire</b> de la cérémonie ?</h4>
+          <%= link_to "Cliquez ici", "https://www.weezevent.com/electrochoc-numerique-3", target: "_blank", class: "btn btn-lg btn-primary" %>
+          <p>Et sélectionnez le Tarif cocktail Incubateur (10 EUR TTC)</p>
+        </div>
       </div>
     </div>
   </div> <!-- .row -->
 
   <div class="row candidatures-ouvertes">
     <div class="col-md-offset-1 col-md-10 col-xs-12 lined-middle-gray">
-      <h2>Les candidatures sont ouvertes jusqu'au lundi <b>1er octobre 2018</b> (minuit)</h2>
+      <h2>Les candidatures sont ouvertes jusqu'au mardi <b>23 octobre 2018</b> (minuit) pour la <b>catégorie Avocat</b></h2>
+      <h2>Les candidatures pour la catégorie LegalTech sont maintenant clôturées</h2>
       <p>Téléchargez le dossier de candidature approprié</p>
     </div>
   </div> <!-- .row -->
@@ -36,12 +42,6 @@
         <i class="fa fa-rocket" aria-hidden="true"></i>
         <h3>LegalTech</h3>
       </div>
-      <div class="download-btn">
-        <%= link_to "https://drive.google.com/open?id=15XR61yC5w1AzZmZAhd4KjNR_frMS_AUs", target: "_blank" do %>
-          <i class="fa fa-cloud-download" aria-hidden="true"></i>
-          <p>Télécharger<br>Dossier de candidature</p>
-        <% end %>
-      </div> <!-- .download-btn -->
     </div>
     <div class="col-md-offset-2 col-md-4 col-xs-12">
       <div class="category-card lightbulb">
@@ -187,6 +187,8 @@
       <p>Jeudi <b>13 décembre 2018</b> à 17h00 précises</p>
       <p>Fédération des Entreprises de Belgique, Salle Horta</p>
       <p>4 rue Ravenstein, 1000 Bruxelles</p>
+      <%= link_to "Cliquez ici pour vous inscrire", "https://www.weezevent.com/electrochoc-numerique-3", target: "_blank", class: "btn btn-lg btn-primary" %>
+      <p>Prix : <b>10</b> EUR (TTC) - sélectionnez le Tarif cocktail Incubateur</p>
     </div>
     <div class="col-md-offset-1 col-md-5 col-xs-12">
       <%= image_tag "horta.jpg", class: "img-responsive img-thumbnail volet-img" %>
