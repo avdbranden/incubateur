@@ -25,7 +25,11 @@ div.jury-avocat {
 }
 
 div.finaliste-card {
-
+ h2 {
+  font-size: 42px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
 }
 
 div.jury-titre {
@@ -85,7 +89,7 @@ button {
 }
 
 div.reglement {
-  margin-top: 80px;
+  margin-top: 30px;
   margin-bottom: 45px;
   padding-top: 35px;
 }
