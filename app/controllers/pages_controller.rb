@@ -22,4 +22,7 @@ class PagesController < ApplicationController
 
   def digest
   end
+
+  def cookies
+  end
 end
