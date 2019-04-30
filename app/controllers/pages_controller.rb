@@ -19,4 +19,7 @@ class PagesController < ApplicationController
 
   def radio
   end
+
+  def digest
+  end
 end
