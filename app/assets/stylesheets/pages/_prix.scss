@@ -1,6 +1,12 @@
 div.candidatures-ouvertes {
   margin-top: 20px;
-  margin-bottom: 35px;
+  margin-bottom: 0px;
+  span {
+    color: $blue;
+  }
+  p {
+    font-size: 20px;
+  }
 }
 
 div.cocktail-inscriptions {
