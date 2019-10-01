@@ -8,6 +8,9 @@ class PagesController < ApplicationController
   def prix2017
   end
 
+  def prix2018
+  end
+
   def contact
   end
 
