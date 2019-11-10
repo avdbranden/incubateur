@@ -11,7 +11,7 @@
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= favicon_link_tag "inc1.png"%>
 
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="6ae9f5da-7903-4b77-9b13-062405cc49d9" type="text/javascript" async></script>
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="6ae9f5da-7903-4b77-9b13-062405cc49d9" type="text/javascript" data-blockingmode="auto"></script>
     
     <% if Rails.env.production? %>
         <script type="text/plain" data-cookieconsent="statistics">
